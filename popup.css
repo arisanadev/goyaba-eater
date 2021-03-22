@@ -1,0 +1,31 @@
+body {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+.empty-popup {
+    font-weight: bold;
+}
+
+.empty-popup p {
+    white-space: nowrap;
+}
+
+.video-item {
+    display: flex;
+    align-items: center;
+}
+
+.video-item:not(:first-child) {
+    border-top: 1px solid #878787;
+}
+
+.video-item button {
+    border: none;
+    background-color: #ff0048;
+    height: 35px;
+    width: 35px;
+    margin-left: 30px;
+    text-align: center;
+}

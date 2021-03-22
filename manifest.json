@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "Goyaba Eater",
+  "version": "0.1",
+  "action": {
+    "default_icon": {
+      "16": "images/ico-16.png",
+      "24": "images/ico-24.png",
+      "32": "images/ico-32.png"
+    },
+    "default_title": "Goyaba Eater",
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    { 
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ],
+  "permissions": ["storage", "activeTab", "scripting"]
+}
